@@ -664,6 +664,7 @@ dependencies = [
  "nix-bindings-store",
  "nix-bindings-util",
  "pkg-config",
+ "serde_json",
  "tempfile",
 ]
 

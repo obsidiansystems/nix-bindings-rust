@@ -1,5 +1,6 @@
 #![cfg(nix_at_least = "2.33.0pre")]
 
+use anyhow::Result;
 use nix_bindings_store_sys as raw;
 #[cfg(nix_at_least = "2.33")]
 use nix_bindings_util::{
